@@ -99,7 +99,7 @@ function mhm_memberpress_clickbank_dashboard_menu_setup() {
 
 	$email = get_option('mhm_memberpress_clickbank_email');
 	$license_key = get_option('mhm_memberpress_clickbank_license_key');
-	product_id = get_option('mhm_memberpress_clickbank_product_id');
+	$product_id = get_option('mhm_memberpress_clickbank_product_id');
 	//$product_id = 'woocommerce-addon-retailer';
 	
 	add_submenu_page( 'mhm-memberpress-clickbank-setup', 'License', 'License',
